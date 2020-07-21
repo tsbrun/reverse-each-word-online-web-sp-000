@@ -9,8 +9,7 @@ def reverse_each_word(sentence)
   ## reversed_array.join(" ")
 
   # turn string into an array
-  sentence_array = sentence
-  # use .collect to reverse each element of the array
+    # use .collect to reverse each element of the array
   sentence.split(/ /).collect {|word| word.reverse}.join(" ")
   # .join the array with " "
 end
